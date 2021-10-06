@@ -14,8 +14,6 @@
 ## General Information
 - Responsive youtube page clone
 - Search and Popular results fetch through api
-- Project have rating system. 
-- We showcase top projects of the week
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
