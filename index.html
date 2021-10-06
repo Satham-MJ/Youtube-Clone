@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link href="images/favicon.png" type="images/gif" rel="icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="left-icon">
+            <a href="javascript:void(0);" class="nav-toggle"><i class="fa fa-bars fa-lg"></i></a>
+            <a href="index.html" class="nav-logo"><img src="images/logo.png"></a>
+        </div>
+        <div class="search-form">
+            <form action="/seach.html" method="POST">
+                <input type="text" placeholder="Search" id="inputSearch">
+                <button type="submit" id='searchTrigger'><i class="fa fa-search fa-light"></i></button>
+            </form>
+        </div>
+        <div class="right-icon">
+            <a class="bento-menu" href="javascript:void(0);">
+                <div class="bento-dot"></div>
+                <div class="bento-dot"></div>
+                <div class="bento-dot"></div>
+                <div class="bento-dot"></div>
+                <div class="bento-dot"></div>
+                <div class="bento-dot"></div>
+                <div class="bento-dot"></div>
+                <div class="bento-dot"></div>
+                <div class="bento-dot"></div>
+            </a>
+            <a href="javascript:void(0);"><i class="fa fa-bell-o fa-lg"></i></a>
+            <a href="javascript:void(0);"><img src="images/profile.jpg" alt="" class="profile-icon"></a>
+        </div>
+    </header>
+    <div class="spacer"></div>
+    <div class="container">
+        <sidebar>
+        <ul>
+            <li><a class="active" href="index.html"><img src="images/icon/home.PNG">Home</a></li>
+            <li><a href="javascript:void(0);"><img src="images/icon/explore.PNG">Explore</a></li>
+            <li><a href="javascript:void(0);"><img src="images/icon/subscription.PNG">Subscriptions</a></li>
+        </ul>
+        <ul>
+            <li><a href="javascript:void(0);"><img src="images/icon/library.PNG">Library</a></li>
+            <li class="hider"><a href="javascript:void(0);"><img src="images/icon/history.PNG">History</a></li>
+            <li class="hider"><a href="javascript:void(0);"><img src="images/icon/your-video.PNG">Your Videos</a></li>
+            <li class="hider"><a href="javascript:void(0);"><img src="images/icon/watch-later.PNG">Watch later</a></li>
+            <li class="hider"><a href="javascript:void(0);"><img src="images/icon/liked video.PNG">Liked Videos</a></li>
+        </ul>
+        <h5 class="hider">SUBSCRIPTIONS</h5>
+        <ul class="subscriptions hider">
+            <li><a href="javascript:void(0);"><img src="images/channels/gfg.jpg">GeeksforGeeks</a></li>
+            <li><a href="javascript:void(0);"><img src="images/channels/motiversity.jpg">Motiversity</a></li>
+            <li><a href="javascript:void(0);"><img src="images/channels/flux.jpg">Flux</a></li>
+            <li><a href="javascript:void(0);"><img src="images/channels/wecan.jpg">We can</a></li>
+            <li><a href="javascript:void(0);"><img src="images/channels/traversey.jpg">Traversy Media</a></li>
+            <li class="more-channels more-channel-li"><a href="javascript:void(0);" id="more-channel-trigger"> <i class="fa fa-angle-down"></i> Show 10 More</a></li>
+
+            <!-- Additional Channels -->
+            <li class="more-channels"><a href="javascript:void(0);"><img src="images/channels/startup.jpg">Startup Tamil</a></li>
+            <li class="more-channels"><a href="javascript:void(0);"><img src="images/channels/fearless_soul.jpg">Fearless Soul</a></li>
+            <li class="more-channels"><a href="javascript:void(0);"><img src="images/channels/colt.jpg">Colt Steele</a></li>
+            <li class="more-channels"><a href="javascript:void(0);"><img src="images/channels/wim_hof.jpg">Wim Hof</a></li>
+            <li class="more-channels"><a href="javascript:void(0);"><img src="images/channels/Team Fearless.jpg">Team Fearless</a></li>
+            <li class="more-channels"><a href="javascript:void(0);"><img src="images/channels/The Net Ninja.jpg">The Net Ninja</a></li>
+            <li class="more-channels"><a href="javascript:void(0);"><img src="images/channels/CS Dojo.jpg">CS Dojo</a></li>
+            <li class="more-channels"><a href="javascript:void(0);"><img src="images/channels/freeCodeCamp.org.jpg">freeCodeCamp.org</a></li>
+            <li class="more-channels"><a href="javascript:void(0);"><img src="images/channels/OnePath Network.jpg">OnePath Network</a></li>
+            <li class="more-channels"><a href="javascript:void(0);"><img src="images/channels/thenewboston.jpg">thenewboston</a></li>
+            <li class="more-channels less-channel-li"><a href="javascript:void(0);" id="less-channel-trigger"> <i class="fa fa-angle-up"></i> Show Less</a></li>
+        </ul>
+        <p><a href="javascript:void(0);">About</a>
+            <a href="javascript:void(0);">Press</a>
+            <a href="javascript:void(0);">Copyright</a>
+            <a href="javascript:void(0);">Contact us</a>
+            <a href="javascript:void(0);">Creators</a>
+            <a href="javascript:void(0);">Advertise</a>
+            <a href="javascript:void(0);">Developers</a></p>
+        <p><a href="javascript:void(0)">Terms</a>
+            <a href="javascript:void(0)">Privacy</a>
+            <a href="javascript:void(0)">Policy & Safety</a>
+            <a href="javascript:void(0)">How YouTube works</a>
+            <a href="javascript:void(0)">Test new features</a></p>
+        <p class="copyright">© 2021 Google LLC</p>
+        </sidebar>
+        <main>
+            <section id="intrest-section">
+                <a href="javascript:void(0);" class="active">All</a>
+            </section>
+            <section id="videos">
+                
+            </section>
+        </main>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
